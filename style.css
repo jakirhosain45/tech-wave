@@ -1,3 +1,29 @@
-h1{
-    color: rebeccapurple;
+*{
+  font-family: "Inter", sans-serif;
+  
+}
+.nav-container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.nav-icon{
+    display: none;
+}
+.nav-link{
+    display: block;
+}
+@media screen and (max-width:576px){
+    nav{
+        padding: 0 10px;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+    }
+    .nav-link{
+        display: none;
+    }
 }
