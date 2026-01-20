@@ -1,93 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TechWave</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header>
-        <nav class="bg-[#260e47]">
-            <div class="nav-container flex justify-between items-center py-10">
-                <div>
-                    <h1 class="text-4xl font-bold text-white">Tech<span class="bg-gradient-to-r 
-                    from-yellow-400 
-                    via-pink-500 
-                    to-purple-600 
-                    bg-clip-text 
-                    text-transparent">Wave</span></h1>
-                </div>
-                <div class="nav-link">
-                    <ul class="flex gap-10 text-stone-300">
-                        <li class="hover:text-orange-500"><a href="">About</a></li>
-                        <li class="hover:text-orange-500"><a href="">About</a></li>
-                        <li class="hover:text-orange-500"><a href="">About</a></li>
-                    </ul>
-                </div>
+      <nav class="bg-[#260e47]">
+        <div class="nav-container flex justify-between items-center py-10">
+          <div>
+            <h1 class="text-4xl font-bold text-white">
+              Tech<span
+                class="bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 bg-clip-text text-transparent"
+                >Wave</span
+              >
+            </h1>
+          </div>
+          <div class="nav-link">
+            <ul class="flex gap-10 text-stone-300">
+              <li class="hover:text-orange-500"><a href="">About</a></li>
+              <li class="hover:text-orange-500"><a href="">About</a></li>
+              <li class="hover:text-orange-500"><a href="">About</a></li>
+            </ul>
+          </div>
 
-                <div class="nav-btn">
-                    <button class="bg-gradient-to-r 
-                    from-yellow-400 
-                    via-pink-500 
-                    to-purple-600 text-xl cursor-pointer p-3 font-bold text-white font-2 rounded-lg">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
-                <div class="nav-icon text-white text-3xl">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
+          <div class="nav-btn">
+            <button
+              class="bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 text-xl cursor-pointer p-3 font-bold text-white font-2 rounded-lg"
+            >
+              Subscribe <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="nav-icon text-white text-3xl">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+      <section>
+        <div class="bg-[url('/assets/hero-bg.png')] bg-cover bg-center">
+          <div class="flex justify-center items-center banner pt-20">
+            <div class="relative w-64 sm:w-72 md:w-96 aspect-square">
+              <img
+                class="w-full h-full object-contain"
+                src="./assets/hero-circle.png"
+                alt=""
+              />
+
+              <img
+                class="absolute top-1/4 left-1/2 -translate-x-1/2"
+                src="./assets/microphone.png"
+                alt=""
+              />
+
+              <button
+                class="bg-lime-500 px-2 py-1 rounded-lg absolute top-[15%] right-[10%] animate-bounce"
+              >
+                new
+              </button>
             </div>
-        </nav>
-       <section>
-  <div class="bg-[url('/assets/hero-bg.png')] bg-cover bg-center">
-    <div class="flex justify-center items-center banner pt-20">
-        <div class="relative w-64 sm:w-72 md:w-96 aspect-square">
-          
-          <img class="w-full h-full object-contain" src="./assets/hero-circle.png" alt="">
+          </div>
 
-          
-          <img class="absolute top-1/4 left-1/2 -translate-x-1/2" src="./assets/microphone.png" alt="">
-
-         
-          <button class="bg-lime-500 px-2 py-1 rounded-lg absolute top-[15%] right-[10%] animate-bounce">new</button> 
-
-          
+          <div class="text-center py-20">
+            <div>
+              <h1 class="font-bold text-4xl text-white">TechWave</h1>
+              <p class="py-3 px-3 text-gray-400">
+                Your daily dose of tech insights, productivity hacks, and
+                personal growth
+              </p>
+              <div class="flex gap-2 px-2 justify-center">
+                <button
+                  class="bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 text-xl cursor-pointer p-3 font-bold text-white rounded-lg flex items-center gap-3 justify-center"
+                >
+                  <img src="./assets/spotify.png" alt="" /> Listen on Spotify
+                </button>
+                <button
+                  class="border px-3 cursor-pointer border-lime-600 rounded-4xl text-lime-600 flex items-center gap-3"
+                >
+                  <img src="./assets/message.png" alt="" /> Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-     
-    </div>
-
-    <div class="text-center py-20">
-      <div>
-        <h1 class="font-bold text-4xl text-white">TechWave</h1>
-        <p class="py-3 px-3 text-gray-400">
-          Your daily dose of tech insights, productivity hacks, and personal growth
-        </p>
-        <div class="flex gap-2 px-2 justify-center">
-          <button class="bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 text-xl cursor-pointer p-3 font-bold text-white rounded-lg flex items-center gap-3 justify-center">
-            <img src="./assets/spotify.png" alt=""> Listen on Spotify
-          </button>
-          <button class="border px-3 cursor-pointer border-lime-600 rounded-4xl text-lime-600 flex items-center gap-3">
-            <img src="./assets/message.png" alt=""> Subscribe
-          </button>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
+      </section>
     </header>
     <main>
+      <!-- about section -->
+      <section class="bg-[#260e47]">
+        <div class="text-center py-20 px-2">
+          <h1 class="text-white font-bold text-4xl py-5">About The Podcast</h1>
+          <p class="text-gray-400">
+            TechWave is your go-to podcast for staying ahead in the fast-paced
+            world of technology. <br> We break down complex topics into digestible
+            insights, explore productivity strategies that actually work, <br> and
+            share stories of personal growth from industry leaders.
+            <p class="text-gray-400 my-10"> Join
+            thousands of young professionals and tech enthusiasts who start
+            their day with TechWave.</p>
+            <p class="border border-gray-800 line"></p>
+          </p>
+        </div>
 
+        <div class="pb-20 number-card space-y-5">
+            <div class="text-center">
+                <h1 class="font-bold text-4xl text-lime-600">150K+</h1>
+                <p class="text-gray-400">Monthly Listeners</p>
+            </div>
+            <div class="text-center">
+                <h1 class="font-bold text-4xl text-lime-600">200K+</h1>
+                <p class="text-gray-400">Episodes Published</p>
+            </div>
+            <div class="text-center">
+                <h1 class="font-bold text-4xl text-lime-600">4.9★</h1>
+                <p class="text-gray-400">Average Rating</p>
+            </div>
+            <div class="text-center">
+                <h1 class="font-bold text-4xl text-lime-500">50+</h1>
+                <p class="text-gray-400">Industry Experts</p>
+            </div>
+        </div>
+      </section>
+
+      <section class="bg-[#21093f]">
+        <h1 class="text-center text-white font-bold text-4xl py-14">
+            Why Choose TechWave
+        </h1>
+        <div class="card-section py-10 px-4">
+            <div class=" card-1 bg-[#2b0a57de] shadow-lg p-10 rounded-md transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-zinc-400">
+                <img src="./assets/headphone.png" alt="">
+                <h3 class="text-white py-3 text-2xl">Premium Audio Quality</h3>
+                <p class="text-gray-500">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+            </div>
+            <div class=" card-2 bg-[#2b0a57de] shadow-lg p-10 rounded-md transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-zinc-400">
+                <img src="./assets/device.png" alt="">
+                <h3 class="text-white py-3 text-2xl">Mobile Friendly</h3>
+                <p class="text-gray-500">Listen on the go with seamless mobile experience and offline downloads.</p>
+            </div>
+            <div class=" card-2 bg-[#2b0a57de] shadow-lg p-10 rounded-md transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-zinc-400">
+                <img src="./assets/location.png" alt="">
+                <h3 class="text-white py-3 text-2xl">Global Community</h3>
+                <p class="text-gray-500">Connect with tech enthusiasts from over 120 countries worldwide.</p>
+            </div>
+            <div class=" card-2 bg-[#2b0a57de] shadow-lg p-10 rounded-md transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-zinc-400">
+                <img src="./assets/zap-fast.png" alt="">
+                <h3 class="text-white py-3 text-2xl">Exclusive Interviews</h3>
+                <p class="text-gray-500">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
+            </div>
+            <div class=" card-1 bg-[#2b0a57de] shadow-lg p-10 rounded-md transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-zinc-400">
+                <img src="./assets/resource.png" alt="">
+                <h3 class="text-white py-3 text-2xl">Rich Resources</h3>
+                <p class="text-gray-500">Access show notes, transcripts, and additional learning materials for every episode.</p>
+            </div>
+        </div>
+      </section>
     </main>
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
