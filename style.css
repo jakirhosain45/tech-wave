@@ -29,7 +29,9 @@
 .card-1{
     grid-row: span 2;
 }
-
+.footer-section{
+    background-image: url(./assets/footer-bg.png);
+}
 @media screen and (max-width:576px){
     nav{
         padding: 0 10px;
@@ -52,12 +54,5 @@
     .host-section{
         flex-direction: column;
     }
-}
-@media screen and (min-width:576px) and (max-width:992px){
-    nav{
-        padding: 20px;
-    }
-    .card-section{
-        grid-template-columns: repeat(2,1fr);
-    }
+    
 }
