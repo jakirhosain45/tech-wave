@@ -35,9 +35,9 @@
           </div>
           <div class="nav-link">
             <ul class="flex gap-10 text-stone-300">
-              <li class="hover:text-orange-500"><a href="">About</a></li>
-              <li class="hover:text-orange-500"><a href="">About</a></li>
-              <li class="hover:text-orange-500"><a href="">About</a></li>
+              <li class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-800 hover:p-2 hover:rounded-lg"><a href="">About</a></li>
+              <li class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-800 hover:p-2 hover:rounded-lg"><a href="">Episodes</a></li>
+              <li class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-800 hover:p-2 hover:rounded-lg"><a href="">Host</a></li>
             </ul>
           </div>
 
@@ -54,7 +54,7 @@
         </div>
       </nav>
       <section>
-        <div class="bg-[url('/assets/hero-bg.png')] bg-cover bg-center">
+        <div class="bg-[url('assets/hero-bg.png')] bg-cover bg-center">
           <div class="flex justify-center items-center banner pt-20">
             <div class="relative w-64 sm:w-72 md:w-96 aspect-square">
               <img
@@ -170,6 +170,47 @@
             </div>
         </div>
       </section>
+
+      <!-- featured episodes -->
+       <section class="bg-black py-16">
+        <h1 class="text-4xl font-bold text-white text-center mb-8">Featured Episodes</h1>
+
+        <div class="featured-section lg:flex gap-10">
+            <div class="bg-[#2b0a57de] m-2 rounded-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 ">
+                <iframe class="w-full rounded-t-xl" src="https://www.youtube.com/embed/nVyD6THcvDQ?si=NUBNW-zXW2HvMU8R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="p-10">
+                    <h2 class="font-bold text-white text-2xl">
+                        The Future of AI in Everyday Life
+                    </h2>
+                    <p 
+                    class="text-gray-400">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+                    <button class="text-green-600 flex gap-2 items-center"><img src="./assets/clock.png" alt=""> 42 min</button>
+                </div>
+            </div>
+            <div class="bg-[#2b0a57de] m-2 rounded-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-zinc-400">
+                <iframe class="w-full rounded-t-xl" src="https://www.youtube.com/embed/iONDebHX9qk?si=F3paLHuLY3NBeUNp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="p-10">
+                    <h2 class="font-bold text-white text-2xl">
+                       Building Better Habits for Remote Work
+                    </h2>
+                    <p 
+                    class="text-gray-400">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+                    <button class="text-green-600 flex gap-2 items-center"><img src="./assets/clock.png" alt=""> 42 min</button>
+                </div>
+            </div>
+            <div class="bg-[#2b0a57de] m-2 rounded-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-zinc-400">
+                <iframe class="w-full rounded-t-xl" src="https://www.youtube.com/embed/fZmQ_aPXJAM?si=CCApgtdb-YySKsG-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="p-10">
+                    <h2 class="font-bold text-white text-2xl">
+                       Career Growth in Tech: A Roadmap
+                    </h2>
+                    <p 
+                    class="text-gray-400">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
+                    <button class="text-green-600 flex gap-2 items-center"><img src="./assets/clock.png" alt=""> 42 min</button>
+                </div>
+            </div>
+        </div>
+       </section>
     </main>
     <footer></footer>
   </body>

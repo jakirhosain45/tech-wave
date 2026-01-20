@@ -2,7 +2,7 @@
   font-family: "Inter", sans-serif;
   
 }
-.nav-container, .line,.number-card, .card-section{
+.nav-container, .line,.number-card, .card-section,.featured-section{
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -29,6 +29,7 @@
 .card-1{
     grid-row: span 2;
 }
+
 @media screen and (max-width:576px){
     nav{
         padding: 0 10px;
