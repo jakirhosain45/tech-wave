@@ -2,7 +2,7 @@
   font-family: "Inter", sans-serif;
   
 }
-.nav-container, .line,.number-card, .card-section,.featured-section{
+.nav-container, .line,.number-card, .card-section,.featured-section,.host-section{
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -48,6 +48,9 @@
     }
     .card-section{
         grid-template-columns: repeat(1,1fr);
+    }
+    .host-section{
+        flex-direction: column;
     }
 }
 @media screen and (min-width:576px) and (max-width:992px){
